@@ -1,0 +1,23 @@
+{
+  "name": "andriell/yii2-amqp",
+  "description": "Yii2 extension enables you to use AMQP protocol",
+  "keywords": ["yii", "yii2", "extension", "amqp", "RabbitMQ"],
+  "homepage": "https://github.com/andriell/yii2-amqp",
+  "type": "yii-extension",
+  "license": "GPL-3.0+",
+  "authors": [
+    {
+      "name": "Andrey Rybalko",
+      "email": "root.andriell@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "andriell\\amqp\\": ""
+    }
+  }
+}
